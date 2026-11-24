@@ -2,7 +2,7 @@
 
 ## Quién soy
 
-En este sitio comparto mis apuntes y lo que voy aprendiendo en Sistemas Informáticos.
+Soy **Moussa Naanaai Mahfoudi**, alumno de Sistemas Informáticos (SI) en el IES Doctor Balmis.
 
 ## Qué es un portafolio
 
