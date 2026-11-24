@@ -1,5 +1,5 @@
 - [Inicio](/)
-- **UT7 · Aplicaciones informáticas**
+- **UT7 · Aplicaciones informáticas de propósito general**
   - [Síntesis UT7](/ut7/sintesis.md)
   - [7.1 Clasificación y licencias de software](/ut7/licencias.md)
   - [7.2 Necesidades de software en entornos productivos](/ut7/necesidades-software.md)
