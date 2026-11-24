@@ -9,7 +9,12 @@
 }
 
 body {
-  background: var(--canvas);
+  background:
+    radial-gradient(ellipse at 88% 6%, #c9f2eb 0%, transparent 45%),
+    radial-gradient(ellipse at 15% 30%, #d9e6ff 0%, transparent 55%),
+    linear-gradient(155deg, #f8fbff, #ebf4ff 62%, #edf8f5);
+  background-color: var(--canvas);
+  background-attachment: fixed;
   color: var(--ink);
   font-family: "Segoe UI", system-ui, sans-serif;
 }
@@ -43,6 +48,26 @@ body {
   padding: 2.75rem clamp(1.1rem, 4vw, 3rem) 4rem;
   line-height: 1.7;
   overflow-wrap: anywhere;
+}
+
+.content {
+  min-height: 100vh;
+}
+
+.markdown-section {
+  background: #fffffff0;
+  border: 1px solid #dce7f3;
+  border-radius: 1.25rem;
+  box-shadow: 0 1rem 3rem #18345a12;
+  margin: 1rem auto 2rem;
+  width: calc(100% - clamp(1.5rem, 7vw, 7rem));
+}
+
+@media (max-width: 600px) {
+  .markdown-section {
+    border-radius: .85rem;
+    margin-top: .5rem;
+  }
 }
 
 .markdown-section h1 {
