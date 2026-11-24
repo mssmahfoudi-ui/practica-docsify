@@ -1,42 +1,38 @@
 :root {
-  --theme-color: #0f766e;
-  --ink: #17233a;
-  --muted: #425572;
-  --canvas: #f5f8fc;
-  --line: #d9e3ef;
-  --nav: #12213b;
-  --mint: #80f0d0;
+  color-scheme: dark;
+  --theme-color: #b3c7ff;
+  --ink: #edeef3;
+  --muted: #c1c3c8;
+  --canvas: #17181c;
+  --line: #353841;
+  --nav: #23262f;
+  --mint: #b3c7ff;
 }
 
 body {
-  background:
-    radial-gradient(ellipse at 88% 6%, #c9f2eb 0%, transparent 45%),
-    radial-gradient(ellipse at 15% 30%, #d9e6ff 0%, transparent 55%),
-    linear-gradient(155deg, #f8fbff, #ebf4ff 62%, #edf8f5);
-  background-color: var(--canvas);
-  background-attachment: fixed;
+  background: var(--canvas);
   color: var(--ink);
   font-family: "Segoe UI", system-ui, sans-serif;
 }
 
 .sidebar {
   background: var(--nav);
-  border-right: 1px solid #253854;
+  border-right: 1px solid #353841;
 }
 
-.sidebar > h1 a, .sidebar .app-name-link { color: #fff; }
+.sidebar > h1 a, .sidebar .app-name-link { color: #edeef3; }
 .sidebar .sidebar-nav { padding: 0 1rem 2rem; }
 .sidebar ul li { margin: .2rem 0; }
 .sidebar ul li strong { color: var(--mint); }
 .sidebar ul li a {
-  color: #dce7f8;
+  color: #c1c3c8;
   border-radius: .45rem;
   padding: .22rem .65rem;
   white-space: normal;
   line-height: 1.45;
 }
 .sidebar ul li a:hover, .sidebar ul li.active > a {
-  background: #253b57;
+  background: #17264f;
   color: var(--mint);
   text-decoration: none;
 }
@@ -55,10 +51,10 @@ body {
 }
 
 .markdown-section {
-  background: #fffffff0;
-  border: 1px solid #dce7f3;
+  background: #17181c;
+  border: 1px solid #353841;
   border-radius: 1.25rem;
-  box-shadow: 0 1rem 3rem #18345a12;
+  box-shadow: 0 1rem 3rem #00000024;
   margin: 1rem auto 2rem;
   width: calc(100% - clamp(1.5rem, 7vw, 7rem));
 }
@@ -74,35 +70,35 @@ body {
   margin: 0 0 1.7rem;
   padding: clamp(1.4rem, 4vw, 2.8rem);
   border-radius: 1rem;
-  background: linear-gradient(120deg, #18345a 10%, #115d62 100%);
+  background: linear-gradient(120deg, #17264f 10%, #23262f 100%);
   box-shadow: 0 .55rem 1.4rem #182f4f24;
   font-size: clamp(1.8rem, 4vw, 2.8rem);
   line-height: 1.16;
 }
-.markdown-section h1, .markdown-section h1 a span { color: #fff; }
-.markdown-section h2 { color: #174762; line-height: 1.3; margin-top: 2rem; }
+.markdown-section h1, .markdown-section h1 a span { color: #edeef3; }
+.markdown-section h2 { color: #b3c7ff; line-height: 1.3; margin-top: 2rem; }
 .markdown-section p { color: var(--muted); }
 .markdown-section a { text-underline-offset: .2em; }
 .markdown-section a:focus-visible, .sidebar a:focus-visible, .sidebar-toggle:focus-visible {
-  outline: 3px solid #149484;
+  outline: 3px solid #b3c7ff;
   outline-offset: 3px;
 }
 
 .markdown-section blockquote {
-  background: #e4f6f1;
-  border-left-color: #0f766e;
+  background: #17264f;
+  border-left-color: #b3c7ff;
   border-radius: 0 .5rem .5rem 0;
   padding: .6rem 1rem;
 }
 .markdown-section pre {
   border: 1px solid var(--line);
   border-radius: .65rem;
-  background: #edf3fb;
+  background: #23262f;
   overflow: auto;
 }
 .markdown-section pre > code { background: transparent; }
-.markdown-section th { background: #d8efe9; text-align: left; }
-.markdown-section table tr:nth-child(2n) { background: #edf3fb; }
+.markdown-section th { background: #17264f; text-align: left; }
+.markdown-section table tr:nth-child(2n) { background: #23262f; }
 
 body[data-page="README.md"] .markdown-section > ul {
   display: grid;
@@ -118,15 +114,15 @@ body[data-page="README.md"] .markdown-section > ul > li > a {
   align-items: center;
   min-height: 3.5rem;
   padding: .75rem 1rem;
-  background: #fff;
+  background: #23262f;
   border: 1px solid var(--line);
-  border-left: 4px solid #0f766e;
+  border-left: 4px solid #3369ff;
   border-radius: .65rem;
-  color: #153552;
+  color: #edeef3;
   text-decoration: none;
 }
 body[data-page="README.md"] .markdown-section > ul > li > a:hover {
-  background: #e4f6f1;
+  background: #17264f;
   text-decoration: underline;
 }
 
@@ -134,3 +130,10 @@ body[data-page="README.md"] .markdown-section > ul > li > a:hover {
   .markdown-section { padding-top: 1.25rem; }
   .markdown-section h1 { margin-bottom: 1.15rem; }
 }
+
+.markdown-section .anchor span, .markdown-section strong,
+.markdown-section pre > code, .markdown-section code { color: var(--ink); }
+.markdown-section code { background: #23262f; }
+.markdown-section pre > code { background: transparent; }
+.markdown-section blockquote { color: var(--ink); }
+.markdown-section td, .markdown-section th { border-color: var(--line); }
