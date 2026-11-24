@@ -4,6 +4,8 @@
 
 Soy **Moussa Naanaai Mahfoudi**, alumno de Sistemas Informáticos (SI) en el IES Doctor Balmis.
 
+En este sitio comparto mis apuntes y lo que voy aprendiendo en Sistemas Informáticos.
+
 ## Qué es un portafolio
 
 Un portafolio es una colección organizada de trabajos que muestra lo que has aprendido y cómo has progresado. En el mío reúno apuntes y ejemplos para consultar y repasar la unidad 7.
