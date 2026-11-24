@@ -3,14 +3,25 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Sistemas Informáticos · Unidad 7</title>
+  <title>Apuntes de Moussa</title>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
   <link rel="stylesheet" href="./estilos.css?v=3">
 </head>
 <body>
   <div id="app"></div>
   <script>
-    window.$docsify = { name: 'Sistemas Informáticos', loadSidebar: true, alias: { '/.*/_sidebar.md': '/_sidebar.md' } };
+    window.$docsify = {
+      name: 'Sistemas Informáticos',
+      loadSidebar: true,
+      alias: { '/.*/_sidebar.md': '/_sidebar.md' },
+      plugins: [
+        function (hook) {
+          hook.doneEach(function () {
+            document.title = 'Apuntes de Moussa';
+          });
+        }
+      ]
+    };
   </script>
   <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/docsify.min.js"></script>
 </body>
