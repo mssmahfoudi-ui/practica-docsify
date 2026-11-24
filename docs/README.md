@@ -1,8 +1,14 @@
-# Sistemas Informáticos
+# Mi portafolio de Sistemas Informáticos
 
-## Unidad 7 · Aplicaciones informáticas
+## Quién soy
 
-Contenido de la unidad 7 de `SI.pdf`, organizado por apartados.
+En este sitio comparto mis apuntes y lo que voy aprendiendo en Sistemas Informáticos.
+
+## Qué es un portafolio
+
+Un portafolio es una colección organizada de trabajos que muestra lo que has aprendido y cómo has progresado. En el mío reúno apuntes y ejemplos para consultar y repasar la unidad 7.
+
+## Unidad 7 · Aplicaciones informáticas de propósito general
 
 - [Síntesis UT7](/ut7/sintesis.md)
 - [7.1 Clasificación y licencias de software](/ut7/licencias.md)
